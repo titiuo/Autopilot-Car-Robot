@@ -4,7 +4,7 @@ import numpy as np
 import time
 from API import *
 from client import Client
-from move2 import clamp2
+from Autopilot.move import clamp2
 
 def clamp(angle):
     angle = angle % (2*np.pi)
@@ -32,7 +32,7 @@ class Vision :
         self.liste_aruco=[]
 
         # Nos valeurs de calibration
-        donnees=np.load("src/calibration_params2.npz")
+        donnees=np.load("src/calibration_params.npz")
         mtx = cameraMatrix = donnees['cameraMatrix']
         dist = donnees['distCoeffs']
         marker_size = 0.05

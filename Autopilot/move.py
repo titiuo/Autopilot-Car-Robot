@@ -1,5 +1,3 @@
-from PCA9685 import PCA9685
-import time
 import moteur 
 import numpy as np
 from API import *

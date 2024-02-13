@@ -7,7 +7,6 @@ from typing import Optional
 from API import Marker, Robot, Position, Logic
 import struct
 from logger import *
-import random
 import numpy as np
 
 SERVER_ADDRESS = "robotpi-01.enst.fr"

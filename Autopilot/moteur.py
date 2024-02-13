@@ -1,7 +1,4 @@
-import os
-from flask import Flask, render_template, request
 from PCA9685 import PCA9685
-import time
 
 
 Dir = [

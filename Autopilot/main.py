@@ -1,10 +1,8 @@
 import threading
 import vision
-import test
 from API import *
 from client import Client
-from move2 import *
-import vision
+from move import *
 import time
 
 stop=0.1
